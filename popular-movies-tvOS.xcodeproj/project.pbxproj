@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D2A7C11CB81428005105E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A7C01CB81428005105E3 /* AppDelegate.swift */; };
+		46D2A7C31CB81428005105E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A7C21CB81428005105E3 /* ViewController.swift */; };
+		46D2A7C61CB81428005105E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D2A7C41CB81428005105E3 /* Main.storyboard */; };
+		46D2A7C81CB81428005105E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D2A7C71CB81428005105E3 /* Assets.xcassets */; };
+		46D2A7D31CB81428005105E3 /* popular_movies_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A7D21CB81428005105E3 /* popular_movies_tvOSTests.swift */; };
+		46D2A7DE1CB81428005105E3 /* popular_movies_tvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A7DD1CB81428005105E3 /* popular_movies_tvOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D2A7CF1CB81428005105E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D2A7B51CB81428005105E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D2A7BC1CB81428005105E3;
+			remoteInfo = "popular-movies-tvOS";
+		};
+		46D2A7DA1CB81428005105E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D2A7B51CB81428005105E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D2A7BC1CB81428005105E3;
+			remoteInfo = "popular-movies-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46D2A7BD1CB81428005105E3 /* popular-movies-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "popular-movies-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2A7C01CB81428005105E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D2A7C21CB81428005105E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46D2A7C51CB81428005105E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46D2A7C71CB81428005105E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D2A7C91CB81428005105E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D2A7CE1CB81428005105E3 /* popular-movies-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "popular-movies-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2A7D21CB81428005105E3 /* popular_movies_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popular_movies_tvOSTests.swift; sourceTree = "<group>"; };
+		46D2A7D41CB81428005105E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D2A7D91CB81428005105E3 /* popular-movies-tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "popular-movies-tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D2A7DD1CB81428005105E3 /* popular_movies_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popular_movies_tvOSUITests.swift; sourceTree = "<group>"; };
+		46D2A7DF1CB81428005105E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D2A7BA1CB81428005105E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2A7CB1CB81428005105E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2A7D61CB81428005105E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D2A7B41CB81428005105E3 = {
+			isa = PBXGroup;
+			children = (
+				46D2A7BF1CB81428005105E3 /* popular-movies-tvOS */,
+				46D2A7D11CB81428005105E3 /* popular-movies-tvOSTests */,
+				46D2A7DC1CB81428005105E3 /* popular-movies-tvOSUITests */,
+				46D2A7BE1CB81428005105E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D2A7BE1CB81428005105E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D2A7BD1CB81428005105E3 /* popular-movies-tvOS.app */,
+				46D2A7CE1CB81428005105E3 /* popular-movies-tvOSTests.xctest */,
+				46D2A7D91CB81428005105E3 /* popular-movies-tvOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D2A7BF1CB81428005105E3 /* popular-movies-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				46D2A7C01CB81428005105E3 /* AppDelegate.swift */,
+				46D2A7C21CB81428005105E3 /* ViewController.swift */,
+				46D2A7C41CB81428005105E3 /* Main.storyboard */,
+				46D2A7C71CB81428005105E3 /* Assets.xcassets */,
+				46D2A7C91CB81428005105E3 /* Info.plist */,
+			);
+			path = "popular-movies-tvOS";
+			sourceTree = "<group>";
+		};
+		46D2A7D11CB81428005105E3 /* popular-movies-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				46D2A7D21CB81428005105E3 /* popular_movies_tvOSTests.swift */,
+				46D2A7D41CB81428005105E3 /* Info.plist */,
+			);
+			path = "popular-movies-tvOSTests";
+			sourceTree = "<group>";
+		};
+		46D2A7DC1CB81428005105E3 /* popular-movies-tvOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46D2A7DD1CB81428005105E3 /* popular_movies_tvOSUITests.swift */,
+				46D2A7DF1CB81428005105E3 /* Info.plist */,
+			);
+			path = "popular-movies-tvOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D2A7BC1CB81428005105E3 /* popular-movies-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2A7E21CB81428005105E3 /* Build configuration list for PBXNativeTarget "popular-movies-tvOS" */;
+			buildPhases = (
+				46D2A7B91CB81428005105E3 /* Sources */,
+				46D2A7BA1CB81428005105E3 /* Frameworks */,
+				46D2A7BB1CB81428005105E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "popular-movies-tvOS";
+			productName = "popular-movies-tvOS";
+			productReference = 46D2A7BD1CB81428005105E3 /* popular-movies-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D2A7CD1CB81428005105E3 /* popular-movies-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2A7E51CB81428005105E3 /* Build configuration list for PBXNativeTarget "popular-movies-tvOSTests" */;
+			buildPhases = (
+				46D2A7CA1CB81428005105E3 /* Sources */,
+				46D2A7CB1CB81428005105E3 /* Frameworks */,
+				46D2A7CC1CB81428005105E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D2A7D01CB81428005105E3 /* PBXTargetDependency */,
+			);
+			name = "popular-movies-tvOSTests";
+			productName = "popular-movies-tvOSTests";
+			productReference = 46D2A7CE1CB81428005105E3 /* popular-movies-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46D2A7D81CB81428005105E3 /* popular-movies-tvOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D2A7E81CB81428005105E3 /* Build configuration list for PBXNativeTarget "popular-movies-tvOSUITests" */;
+			buildPhases = (
+				46D2A7D51CB81428005105E3 /* Sources */,
+				46D2A7D61CB81428005105E3 /* Frameworks */,
+				46D2A7D71CB81428005105E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D2A7DB1CB81428005105E3 /* PBXTargetDependency */,
+			);
+			name = "popular-movies-tvOSUITests";
+			productName = "popular-movies-tvOSUITests";
+			productReference = 46D2A7D91CB81428005105E3 /* popular-movies-tvOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D2A7B51CB81428005105E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = seventhree;
+				TargetAttributes = {
+					46D2A7BC1CB81428005105E3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					46D2A7CD1CB81428005105E3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 46D2A7BC1CB81428005105E3;
+					};
+					46D2A7D81CB81428005105E3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 46D2A7BC1CB81428005105E3;
+					};
+				};
+			};
+			buildConfigurationList = 46D2A7B81CB81428005105E3 /* Build configuration list for PBXProject "popular-movies-tvOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D2A7B41CB81428005105E3;
+			productRefGroup = 46D2A7BE1CB81428005105E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D2A7BC1CB81428005105E3 /* popular-movies-tvOS */,
+				46D2A7CD1CB81428005105E3 /* popular-movies-tvOSTests */,
+				46D2A7D81CB81428005105E3 /* popular-movies-tvOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D2A7BB1CB81428005105E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2A7C81CB81428005105E3 /* Assets.xcassets in Resources */,
+				46D2A7C61CB81428005105E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2A7CC1CB81428005105E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2A7D71CB81428005105E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D2A7B91CB81428005105E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2A7C31CB81428005105E3 /* ViewController.swift in Sources */,
+				46D2A7C11CB81428005105E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2A7CA1CB81428005105E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2A7D31CB81428005105E3 /* popular_movies_tvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D2A7D51CB81428005105E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2A7DE1CB81428005105E3 /* popular_movies_tvOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D2A7D01CB81428005105E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D2A7BC1CB81428005105E3 /* popular-movies-tvOS */;
+			targetProxy = 46D2A7CF1CB81428005105E3 /* PBXContainerItemProxy */;
+		};
+		46D2A7DB1CB81428005105E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D2A7BC1CB81428005105E3 /* popular-movies-tvOS */;
+			targetProxy = 46D2A7DA1CB81428005105E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D2A7C41CB81428005105E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D2A7C51CB81428005105E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D2A7E01CB81428005105E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		46D2A7E11CB81428005105E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D2A7E31CB81428005105E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "popular-movies-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seventhree.popular-movies-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46D2A7E41CB81428005105E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "popular-movies-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seventhree.popular-movies-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46D2A7E61CB81428005105E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "popular-movies-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seventhree.popular-movies-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popular-movies-tvOS.app/popular-movies-tvOS";
+			};
+			name = Debug;
+		};
+		46D2A7E71CB81428005105E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "popular-movies-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seventhree.popular-movies-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popular-movies-tvOS.app/popular-movies-tvOS";
+			};
+			name = Release;
+		};
+		46D2A7E91CB81428005105E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "popular-movies-tvOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seventhree.popular-movies-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "popular-movies-tvOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46D2A7EA1CB81428005105E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "popular-movies-tvOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seventhree.popular-movies-tvOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "popular-movies-tvOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D2A7B81CB81428005105E3 /* Build configuration list for PBXProject "popular-movies-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2A7E01CB81428005105E3 /* Debug */,
+				46D2A7E11CB81428005105E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D2A7E21CB81428005105E3 /* Build configuration list for PBXNativeTarget "popular-movies-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2A7E31CB81428005105E3 /* Debug */,
+				46D2A7E41CB81428005105E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D2A7E51CB81428005105E3 /* Build configuration list for PBXNativeTarget "popular-movies-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2A7E61CB81428005105E3 /* Debug */,
+				46D2A7E71CB81428005105E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D2A7E81CB81428005105E3 /* Build configuration list for PBXNativeTarget "popular-movies-tvOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D2A7E91CB81428005105E3 /* Debug */,
+				46D2A7EA1CB81428005105E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D2A7B51CB81428005105E3 /* Project object */;
+}
