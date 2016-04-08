@@ -13,6 +13,7 @@
 		46D2A7C81CB81428005105E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D2A7C71CB81428005105E3 /* Assets.xcassets */; };
 		46D2A7D31CB81428005105E3 /* popular_movies_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A7D21CB81428005105E3 /* popular_movies_tvOSTests.swift */; };
 		46D2A7DE1CB81428005105E3 /* popular_movies_tvOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A7DD1CB81428005105E3 /* popular_movies_tvOSUITests.swift */; };
+		46D2A7EC1CB819DB005105E3 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2A7EB1CB819DB005105E3 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		46D2A7D91CB81428005105E3 /* popular-movies-tvOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "popular-movies-tvOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D2A7DD1CB81428005105E3 /* popular_movies_tvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popular_movies_tvOSUITests.swift; sourceTree = "<group>"; };
 		46D2A7DF1CB81428005105E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D2A7EB1CB819DB005105E3 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				46D2A7C41CB81428005105E3 /* Main.storyboard */,
 				46D2A7C71CB81428005105E3 /* Assets.xcassets */,
 				46D2A7C91CB81428005105E3 /* Info.plist */,
+				46D2A7EB1CB819DB005105E3 /* MovieCell.swift */,
 			);
 			path = "popular-movies-tvOS";
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			files = (
 				46D2A7C31CB81428005105E3 /* ViewController.swift in Sources */,
 				46D2A7C11CB81428005105E3 /* AppDelegate.swift in Sources */,
+				46D2A7EC1CB819DB005105E3 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
